@@ -161,5 +161,9 @@
   "results/comparison.csv": "fa0c6561e285bfd9ee4563f0a0314c4a849a82ce9c9688aee1cb057655fe49fa",
   "results/baseline-PR_curve.png": "dfaba05abcfad0cad7c2c985b7c124b3293a75933a8201cb486af16cee02e7be",
   "make_result_figures.py": "b4b8bb6133ddcf4ce657ac601eb40c501434241279f036f75d6a2681f7be3829",
-  "export.py": "fc21590096649933d84c5a4a9fb0706e0c28346fc7f571f6709ec2143987beac"
+  "export.py": "fc21590096649933d84c5a4a9fb0706e0c28346fc7f571f6709ec2143987beac",
+  "weights/baseline-best.pt": "120178ab14c0883519f78dc453dd8a9a3c90d2476e92892ae5ce26136b94036e",
+  "weights/dyn-best.pt": "1f2577d71418a7b9d0df496be9dd40110e0885f7091544b7ade637764a7be2b3",
+  "weights/dyn-sd-best.pt": "a1535dfe6fb9e7d1ce24034178106d200c2f0b946cb184c04b52f74de4f6f564",
+  "weights/full-best.pt": "75e866473279f07c779940e3adcea8c48543f267f3e0c484f56caf2274164007"
 }
