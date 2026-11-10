@@ -3,6 +3,7 @@
 Reconstructed research implementation of YOLOv9s with dynamic convolution,
 space-to-depth downsampling and MPDIoU. Includes a controlled cumulative
 ablation study, portable configs and evaluation/report scripts.
+The [weights folder](weights/) contains all four trained checkpoints. To test LD-YOLOv9s on your own images, use [full-best.pt](weights/full-best.pt) for inference.
 
 
 Paper: [Deep learning-based image processing framework for efficient surface
