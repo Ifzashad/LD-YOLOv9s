@@ -4,9 +4,6 @@ Reconstructed research implementation of YOLOv9s with dynamic convolution,
 space-to-depth downsampling and MPDIoU. Includes a controlled cumulative
 ablation study, portable configs and evaluation/report scripts.
 
-**Status: measured test results available in results/.**
-This repository does not claim the paper's reported scores as new results.
-Read [implementation decisions](REPRODUCTION.md) before comparing experiments.
 
 Paper: [Deep learning-based image processing framework for efficient surface
 litter detection in Computer Vision applications](https://doi.org/10.1016/j.jrras.2025.101534).
@@ -20,45 +17,8 @@ litter detection in Computer Vision applications](https://doi.org/10.1016/j.jrra
 | sd-only (optional) | No | Yes | CIoU |
 | mpdiou-only (optional) | No | No | MPDIoU |
 
-## Server setup
 
-Place this folder at `/home/zhh/sss/LD-YOLOv9s`. All environments and caches are
-inside it. The existing conda base is used only to create a project-local Python.
 
-```bash
-cd /home/zhh/sss/LD-YOLOv9s
-mkdir -p logs
-nohup bash setup_server.sh > logs/setup.log 2>&1 < /dev/null &
-tail -f logs/setup.log
-```
-
-## Dataset
-
-Download [Roboflow version 11](https://universe.roboflow.com/taco-ihjgk/yolov8-trash-detections-kgnug/dataset/11)
-in **YOLOv9** format. Dataset binaries and annotations are not redistributed.
-The version contains 12070 images including training augmentation. Its 12
-classes are aluminum, battery, can, cap or lid, cardboard boxes and cartons,
-food & others, glass, paper, plastic bag or wrapper, plastic container,
-styrofoam, utensils and straw. Attribution: TACO workspace, Roboflow, CC BY 4.0.
-
-For a server download, select Show download code on Roboflow and copy only
-the HTTPS ZIP URL into the hidden prompt below. Never commit or share the
-signed URL. Do not paste the whole curl command at the URL prompt.
-
-```bash
-mkdir -p .secrets logs
-chmod 700 .secrets
-read -r -s -p 'Roboflow ZIP URL: ' DATA_URL; echo
-(umask 077; printf '%s' "$DATA_URL" > .secrets/download-url)
-unset DATA_URL
-source env.sh
-nohup .venv/bin/python -u prepare_data.py --download > logs/data.log 2>&1 < /dev/null &
-```
-
-Alternatively import an already downloaded ZIP using
-`.venv/bin/python prepare_data.py --zip /absolute/path/to/dataset.zip`.
-Audit outputs go into `results/dataset-audit.json`. If overlap is found,
-training stops for review; it never silently moves or deletes source data.
 
 ## Train and evaluate
 
