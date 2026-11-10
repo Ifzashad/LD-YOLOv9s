@@ -1,0 +1,848 @@
+{
+  "source": "https://universe.roboflow.com/taco-ihjgk/yolov8-trash-detections-kgnug/dataset/11",
+  "counts": {
+    "train": {
+      "images": 11076,
+      "objects": {
+        "cardboard boxes and cartons": 4041,
+        "plastic bag or wrapper": 3114,
+        "plastic container": 2748,
+        "paper": 1990,
+        "utensils and straw": 2208,
+        "glass": 1866,
+        "cap or lid": 4049,
+        "styrofoam": 1586,
+        "can": 2255,
+        "aluminum": 1239,
+        "food - others": 2118,
+        "battery": 1260
+      }
+    },
+    "valid": {
+      "images": 891,
+      "objects": {
+        "food - others": 140,
+        "plastic container": 222,
+        "cap or lid": 305,
+        "plastic bag or wrapper": 297,
+        "paper": 139,
+        "styrofoam": 165,
+        "cardboard boxes and cartons": 265,
+        "utensils and straw": 125,
+        "can": 193,
+        "glass": 105,
+        "aluminum": 109,
+        "battery": 95
+      }
+    },
+    "test": {
+      "images": 103,
+      "objects": {
+        "can": 50,
+        "cap or lid": 93,
+        "cardboard boxes and cartons": 61,
+        "plastic container": 45,
+        "battery": 67,
+        "plastic bag or wrapper": 25,
+        "glass": 23,
+        "paper": 18
+      }
+    }
+  },
+  "converted_polygons": 6247,
+  "exact_cross_split": {},
+  "family_cross_split": {
+    "000000_JPG": [
+      "train",
+      "valid"
+    ],
+    "000000_jpg": [
+      "train",
+      "valid"
+    ],
+    "000001_jpg": [
+      "train",
+      "valid"
+    ],
+    "000002_jpg": [
+      "train",
+      "valid"
+    ],
+    "000004_jpg": [
+      "train",
+      "valid"
+    ],
+    "000005_jpg": [
+      "train",
+      "valid"
+    ],
+    "000006_jpg": [
+      "train",
+      "valid"
+    ],
+    "000007_JPG": [
+      "train",
+      "valid"
+    ],
+    "000008_JPG": [
+      "train",
+      "valid"
+    ],
+    "000009_jpg": [
+      "train",
+      "valid"
+    ],
+    "000010_jpg": [
+      "train",
+      "valid"
+    ],
+    "000011_jpg": [
+      "train",
+      "valid"
+    ],
+    "000012_JPG": [
+      "train",
+      "valid"
+    ],
+    "000012_jpg": [
+      "train",
+      "valid"
+    ],
+    "000013_jpg": [
+      "train",
+      "valid"
+    ],
+    "000014_JPG": [
+      "train",
+      "valid"
+    ],
+    "000014_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000014_jpg": [
+      "train",
+      "valid"
+    ],
+    "000015_jpg": [
+      "train",
+      "valid"
+    ],
+    "000016_JPG": [
+      "train",
+      "valid"
+    ],
+    "000016_jpg": [
+      "train",
+      "valid"
+    ],
+    "000017_JPG": [
+      "train",
+      "valid"
+    ],
+    "000017_jpg": [
+      "train",
+      "valid"
+    ],
+    "000018_JPG": [
+      "train",
+      "valid"
+    ],
+    "000018_jpg": [
+      "train",
+      "valid"
+    ],
+    "000019_JPG": [
+      "train",
+      "valid"
+    ],
+    "000020_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000020_jpg": [
+      "train",
+      "valid"
+    ],
+    "000021_jpg": [
+      "train",
+      "valid"
+    ],
+    "000022_JPG": [
+      "train",
+      "valid"
+    ],
+    "000022_jpg": [
+      "train",
+      "valid"
+    ],
+    "000023_jpg": [
+      "train",
+      "valid"
+    ],
+    "000024_JPG": [
+      "train",
+      "valid"
+    ],
+    "000024_jpg": [
+      "train",
+      "valid"
+    ],
+    "000025_JPG": [
+      "train",
+      "valid"
+    ],
+    "000025_jpg": [
+      "train",
+      "valid"
+    ],
+    "000026_JPG": [
+      "train",
+      "valid"
+    ],
+    "000026_jpg": [
+      "train",
+      "valid"
+    ],
+    "000027_JPG": [
+      "train",
+      "valid"
+    ],
+    "000027_jpg": [
+      "train",
+      "valid"
+    ],
+    "000029_jpg": [
+      "train",
+      "valid"
+    ],
+    "000030_jpg": [
+      "train",
+      "valid"
+    ],
+    "000032_jpg": [
+      "train",
+      "valid"
+    ],
+    "000033_JPG": [
+      "train",
+      "valid"
+    ],
+    "000033_jpg": [
+      "train",
+      "valid"
+    ],
+    "000034_JPG": [
+      "train",
+      "valid"
+    ],
+    "000034_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000034_jpg": [
+      "train",
+      "valid"
+    ],
+    "000035_JPG": [
+      "train",
+      "valid"
+    ],
+    "000035_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000036_jpg": [
+      "train",
+      "valid"
+    ],
+    "000037_jpg": [
+      "train",
+      "valid"
+    ],
+    "000038_JPG": [
+      "train",
+      "valid"
+    ],
+    "000038_jpg": [
+      "train",
+      "valid"
+    ],
+    "000039_JPG": [
+      "train",
+      "valid"
+    ],
+    "000040_jpg": [
+      "train",
+      "valid"
+    ],
+    "000041_JPG": [
+      "train",
+      "valid"
+    ],
+    "000041_jpg": [
+      "train",
+      "valid"
+    ],
+    "000042_jpg": [
+      "train",
+      "valid"
+    ],
+    "000043_JPG": [
+      "train",
+      "valid"
+    ],
+    "000043_jpg": [
+      "train",
+      "valid"
+    ],
+    "000044_jpg": [
+      "train",
+      "valid"
+    ],
+    "000045_jpg": [
+      "train",
+      "valid"
+    ],
+    "000047_jpg": [
+      "train",
+      "valid"
+    ],
+    "000048_JPG": [
+      "train",
+      "valid"
+    ],
+    "000048_jpg": [
+      "train",
+      "valid"
+    ],
+    "000049_jpg": [
+      "train",
+      "valid"
+    ],
+    "000050_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000050_jpg": [
+      "train",
+      "valid"
+    ],
+    "000051_JPG": [
+      "train",
+      "valid"
+    ],
+    "000051_jpg": [
+      "train",
+      "valid"
+    ],
+    "000052_jpg": [
+      "train",
+      "valid"
+    ],
+    "000053_JPG": [
+      "train",
+      "valid"
+    ],
+    "000053_jpg": [
+      "train",
+      "valid"
+    ],
+    "000054_JPG": [
+      "train",
+      "valid"
+    ],
+    "000054_jpg": [
+      "train",
+      "valid"
+    ],
+    "000055_JPG": [
+      "train",
+      "valid"
+    ],
+    "000055_jpg": [
+      "train",
+      "valid"
+    ],
+    "000056_JPG": [
+      "train",
+      "valid"
+    ],
+    "000056_jpg": [
+      "train",
+      "valid"
+    ],
+    "000057_JPG": [
+      "train",
+      "valid"
+    ],
+    "000057_jpg": [
+      "train",
+      "valid"
+    ],
+    "000058_jpg": [
+      "train",
+      "valid"
+    ],
+    "000059_JPG": [
+      "train",
+      "valid"
+    ],
+    "000059_jpg": [
+      "train",
+      "valid"
+    ],
+    "000060_JPG": [
+      "train",
+      "valid"
+    ],
+    "000060_jpg": [
+      "train",
+      "valid"
+    ],
+    "000061_jpg": [
+      "train",
+      "valid"
+    ],
+    "000062_JPG": [
+      "train",
+      "valid"
+    ],
+    "000063_jpg": [
+      "train",
+      "valid"
+    ],
+    "000064_JPG": [
+      "train",
+      "valid"
+    ],
+    "000064_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000065_JPG": [
+      "train",
+      "valid"
+    ],
+    "000066_JPG": [
+      "train",
+      "valid"
+    ],
+    "000067_JPG": [
+      "train",
+      "valid"
+    ],
+    "000067_jpg": [
+      "train",
+      "valid"
+    ],
+    "000068_JPG": [
+      "train",
+      "valid"
+    ],
+    "000068_jpg": [
+      "train",
+      "valid"
+    ],
+    "000069_JPG": [
+      "train",
+      "valid"
+    ],
+    "000069_jpg": [
+      "train",
+      "valid"
+    ],
+    "000070_JPG": [
+      "train",
+      "valid"
+    ],
+    "000070_jpg": [
+      "train",
+      "valid"
+    ],
+    "000071_JPG": [
+      "train",
+      "valid"
+    ],
+    "000071_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000071_jpg": [
+      "train",
+      "valid"
+    ],
+    "000072_jpg": [
+      "train",
+      "valid"
+    ],
+    "000073_jpg": [
+      "train",
+      "valid"
+    ],
+    "000074_JPG": [
+      "train",
+      "valid"
+    ],
+    "000074_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000075_jpg": [
+      "train",
+      "valid"
+    ],
+    "000076_JPG": [
+      "train",
+      "valid"
+    ],
+    "000076_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000076_jpg": [
+      "train",
+      "valid"
+    ],
+    "000077_jpg": [
+      "train",
+      "valid"
+    ],
+    "000078_jpg": [
+      "train",
+      "valid"
+    ],
+    "000079_jpg": [
+      "train",
+      "valid"
+    ],
+    "000080_jpg": [
+      "train",
+      "valid"
+    ],
+    "000081_JPG": [
+      "train",
+      "valid"
+    ],
+    "000081_jpg": [
+      "train",
+      "valid"
+    ],
+    "000082_JPG": [
+      "train",
+      "valid"
+    ],
+    "000082_jpg": [
+      "train",
+      "valid"
+    ],
+    "000083_JPG": [
+      "train",
+      "valid"
+    ],
+    "000083_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000083_jpg": [
+      "train",
+      "valid"
+    ],
+    "000084_JPG": [
+      "train",
+      "valid"
+    ],
+    "000084_jpg": [
+      "train",
+      "valid"
+    ],
+    "000085_JPG": [
+      "train",
+      "valid"
+    ],
+    "000085_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "000085_jpg": [
+      "train",
+      "valid"
+    ],
+    "000087_JPG": [
+      "train",
+      "valid"
+    ],
+    "000087_jpg": [
+      "train",
+      "valid"
+    ],
+    "000088_JPG": [
+      "train",
+      "valid"
+    ],
+    "000088_jpg": [
+      "train",
+      "valid"
+    ],
+    "000089_jpg": [
+      "train",
+      "valid"
+    ],
+    "000090_JPG": [
+      "train",
+      "valid"
+    ],
+    "000092_JPG": [
+      "train",
+      "valid"
+    ],
+    "000092_jpg": [
+      "train",
+      "valid"
+    ],
+    "000093_JPG": [
+      "train",
+      "valid"
+    ],
+    "000093_jpg": [
+      "train",
+      "valid"
+    ],
+    "000094_JPG": [
+      "train",
+      "valid"
+    ],
+    "000094_jpg": [
+      "train",
+      "valid"
+    ],
+    "000095_JPG": [
+      "train",
+      "valid"
+    ],
+    "000096_JPG": [
+      "train",
+      "valid"
+    ],
+    "000096_jpg": [
+      "train",
+      "valid"
+    ],
+    "000097_jpg": [
+      "train",
+      "valid"
+    ],
+    "000098_jpg": [
+      "train",
+      "valid"
+    ],
+    "000099_JPG": [
+      "train",
+      "valid"
+    ],
+    "000099_jpg": [
+      "train",
+      "valid"
+    ],
+    "000100_JPG": [
+      "train",
+      "valid"
+    ],
+    "000104_JPG": [
+      "train",
+      "valid"
+    ],
+    "000105_JPG": [
+      "train",
+      "valid"
+    ],
+    "000112_JPG": [
+      "train",
+      "valid"
+    ],
+    "000113_JPG": [
+      "train",
+      "valid"
+    ],
+    "000128_JPG": [
+      "train",
+      "valid"
+    ],
+    "000128_JPG_jpg": [
+      "train",
+      "valid"
+    ],
+    "105_jpg": [
+      "train",
+      "valid"
+    ],
+    "112_jpg": [
+      "train",
+      "valid"
+    ],
+    "114_jpg": [
+      "train",
+      "valid"
+    ],
+    "115_jpg": [
+      "train",
+      "valid"
+    ],
+    "123_jpg": [
+      "test",
+      "train"
+    ],
+    "127_jpg": [
+      "train",
+      "valid"
+    ],
+    "133_jpg": [
+      "test",
+      "train"
+    ],
+    "139_jpg": [
+      "train",
+      "valid"
+    ],
+    "147_jpeg_jpg": [
+      "test",
+      "train"
+    ],
+    "148_jpg": [
+      "train",
+      "valid"
+    ],
+    "151_jpg": [
+      "test",
+      "train"
+    ],
+    "152_jpg": [
+      "train",
+      "valid"
+    ],
+    "154_jpg": [
+      "train",
+      "valid"
+    ],
+    "155_jpg": [
+      "train",
+      "valid"
+    ],
+    "162_jpg": [
+      "train",
+      "valid"
+    ],
+    "163_jpg": [
+      "train",
+      "valid"
+    ],
+    "166_jpg": [
+      "train",
+      "valid"
+    ],
+    "168_jpg": [
+      "test",
+      "train"
+    ],
+    "170_jpg": [
+      "train",
+      "valid"
+    ],
+    "175_jpeg_jpg": [
+      "train",
+      "valid"
+    ],
+    "176_jpeg_jpg": [
+      "train",
+      "valid"
+    ],
+    "180_jpg": [
+      "train",
+      "valid"
+    ],
+    "184_jpg": [
+      "train",
+      "valid"
+    ],
+    "186_jpg": [
+      "train",
+      "valid"
+    ],
+    "187_jpg": [
+      "train",
+      "valid"
+    ],
+    "188_jpg": [
+      "test",
+      "train"
+    ],
+    "189_jpg": [
+      "train",
+      "valid"
+    ],
+    "190_jpg": [
+      "test",
+      "train"
+    ],
+    "191_jpeg_jpg": [
+      "train",
+      "valid"
+    ],
+    "195_jpg": [
+      "train",
+      "valid"
+    ],
+    "197_jpg": [
+      "test",
+      "train"
+    ],
+    "198_jpg": [
+      "train",
+      "valid"
+    ],
+    "199_jpeg_jpg": [
+      "train",
+      "valid"
+    ],
+    "201_jpg": [
+      "train",
+      "valid"
+    ],
+    "202_jpg": [
+      "train",
+      "valid"
+    ],
+    "203_jpg": [
+      "train",
+      "valid"
+    ],
+    "207_jpg": [
+      "train",
+      "valid"
+    ],
+    "213_jpg": [
+      "train",
+      "valid"
+    ],
+    "216_jpg": [
+      "train",
+      "valid"
+    ],
+    "218_jpg": [
+      "test",
+      "train"
+    ],
+    "youtube-20_jpg": [
+      "train",
+      "valid"
+    ],
+    "193_jpg": [
+      "test",
+      "valid"
+    ]
+  },
+  "errors": [],
+  "near_duplicate_independence": "Not established",
+  "status": "PASS",
+  "manifest_sha256": "b04c0eaac8accd082bc4dfa21dd13c24971cd0dd9beb1a75597cd2a1944580cf"
+}

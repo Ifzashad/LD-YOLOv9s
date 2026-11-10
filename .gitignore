@@ -1,0 +1,15 @@
+.venv/
+.python310/
+.cache/
+.secrets/
+datasets/
+runs/
+logs/
+exports/
+*.pt
+*.pth
+*.zip
+*.cache
+__pycache__/
+*.pyc
+.env*
